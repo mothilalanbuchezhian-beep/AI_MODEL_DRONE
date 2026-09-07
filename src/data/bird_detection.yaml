@@ -1,0 +1,30 @@
+(.venv) PS D:\HIWI_SENSIG\AI_MODEL> python src\data\validate_yolo_dataset.py "D:\HIWI_SENSIG\AI_MODEL\data\processed\bird_detection" --classes 1 --report "D:\HIWI_SENSIG\AI_MODEL\reports\bird_detection_validation.json"
+{
+  "splits": {
+    "train": {
+      "images": 2399,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 7990
+    },
+    "val": {
+      "images": 685,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 2124
+    },
+    "test": {
+      "images": 345,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 1304
+    }
+  },
+  "errors": [],
+  "cross_split_duplicates": [],
+  "class_box_counts": {
+    "0": 11418
+  },
+  "valid": true
+}
+(.venv) PS D:\HIWI_SENSIG\AI_MODEL> 

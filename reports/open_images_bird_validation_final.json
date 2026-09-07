@@ -1,0 +1,28 @@
+{
+  "splits": {
+    "train": {
+      "images": 13267,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 34358
+    },
+    "val": {
+      "images": 3790,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 9360
+    },
+    "test": {
+      "images": 1897,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 4770
+    }
+  },
+  "errors": [],
+  "cross_split_duplicates": [],
+  "class_box_counts": {
+    "0": 48488
+  },
+  "valid": true
+}

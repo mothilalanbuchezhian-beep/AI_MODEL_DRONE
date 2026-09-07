@@ -1,0 +1,31 @@
+{
+  "splits": {
+    "train": {
+      "images": 134,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 292
+    },
+    "val": {
+      "images": 38,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 124
+    },
+    "test": {
+      "images": 20,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 196
+    }
+  },
+  "errors": [
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\open_images_bird\\labels\\train\\46553dc631ce20ba.txt:2: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\open_images_bird\\labels\\val\\2b30fab3843056eb.txt:2: box extends outside image"
+  ],
+  "cross_split_duplicates": [],
+  "class_box_counts": {
+    "0": 612
+  },
+  "valid": false
+}

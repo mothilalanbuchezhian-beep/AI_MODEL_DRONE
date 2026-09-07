@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+datasets/public/
+data/raw/
+data/processed/
+data/train/
+data/val/
+data/test/
+models/pretrained/
+models/trained/
+runs/
+results/
+logs/
+.cache/
+.claude/

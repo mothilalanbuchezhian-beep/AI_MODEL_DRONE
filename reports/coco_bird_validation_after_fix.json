@@ -1,0 +1,77 @@
+{
+  "splits": {
+    "train": {
+      "images": 2265,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 7698
+    },
+    "val": {
+      "images": 647,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 2000
+    },
+    "test": {
+      "images": 325,
+      "missing_labels": 0,
+      "corrupt_images": 0,
+      "boxes": 1108
+    }
+  },
+  "errors": [
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000033425.txt:10: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000061850.txt:15: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000080404.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000099645.txt:3: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000105432.txt:10: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000107468.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000110045.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000134562.txt:16: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000137811.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000156751.txt:4: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000170253.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000176180.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000181515.txt:20: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000198382.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000214131.txt:19: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000225071.txt:7: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000248236.txt:6: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000266852.txt:14: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000288827.txt:16: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000307507.txt:8: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000322905.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000324139.txt:10: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000335566.txt:2: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000367092.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000368044.txt:3: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000368044.txt:12: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000386788.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000389869.txt:14: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000430537.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000464737.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000483442.txt:14: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000487264.txt:2: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000501646.txt:10: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\train\\000000502197.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000076912.txt:13: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000099372.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000105918.txt:10: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000134644.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000196540.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000284292.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000303439.txt:14: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000438107.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000467766.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\val\\000000497094.txt:1: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\test\\000000052147.txt:3: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\test\\000000475169.txt:18: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\test\\000000528232.txt:2: box extends outside image",
+    "D:\\HIWI_SENSIG\\AI_MODEL\\data\\processed\\coco_bird\\labels\\test\\000000577522.txt:1: box extends outside image"
+  ],
+  "cross_split_duplicates": [],
+  "class_box_counts": {
+    "0": 10806
+  },
+  "valid": false
+}

@@ -1,0 +1,57 @@
+# Dataset acquisition plan; no source dataset is modified.
+# All paths are relative to the project root.
+version: 1
+task: detection
+classes:
+  0: bird
+
+sources:
+  coco2017:
+    enabled: true
+    role: primary
+    source_root: datasets/public/coco2017
+    derived_root: data/processed/coco_bird
+    annotation_type: coco_json
+    selection: COCO category "bird" only
+    license_review_required: true
+
+  open_images_v7:
+    enabled: true
+    role: diversity_supplement
+    source_root: datasets/public/open_images_v7_bird_subset
+    derived_root: data/processed/open_images_bird
+    annotation_type: openimages_csv
+    selection: boxable class "Bird" only; targeted subset, never full release
+    max_images: 20000
+    license_review_required: true
+
+  nabirds_v1:
+    enabled: true
+    role: fine_grained_supplement
+    source_root: datasets/public/nabirds_v1
+    derived_root: data/processed/nabirds_bird
+    annotation_type: dataset_text_files
+    selection: all valid boxed images, mapped to bird
+    use_restriction: non-commercial research only
+
+  cub_200_2011:
+    enabled: true
+    role: compact_supplement
+    source_root: datasets/public/cub_200_2011
+    derived_root: data/processed/cub_bird
+    annotation_type: dataset_text_files
+    selection: all valid boxed images, mapped to bird
+    use_restriction: non-commercial research and educational only
+
+  inaturalist_2021:
+    enabled: false
+    reason: Classification labels only; no source bounding boxes for YOLO detection.
+
+quality_gates:
+  split_seed: 42
+  check_corrupt_images: true
+  check_missing_annotations: true
+  check_invalid_boxes: true
+  check_exact_duplicates: true
+  prevent_cross_split_duplicates: true
+  make_box_visualizations: true

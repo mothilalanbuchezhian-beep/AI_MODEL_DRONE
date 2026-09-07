@@ -1,0 +1,19 @@
+project:
+  name: bird_detection
+  stage: dataset_selection
+  image_only: true
+  selected_dataset: COCO 2017 (pending approval)
+  selected_class:
+    id: 0
+    name: bird
+  training:
+    model: YOLO Nano (pending installation)
+    device: auto
+    seed: 42
+
+paths:
+  raw_public_data: datasets/public
+  derived_data: data
+  training_runs: runs/training
+  trained_models: models/trained
+  results: results

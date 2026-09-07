@@ -1,0 +1,8 @@
+path: D:/HIWI_SENSIG/AI_MODEL/data/processed/bird_detection
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: bird
