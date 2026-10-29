@@ -21,7 +21,7 @@ from pathlib import Path
 import cv2
 from ultralytics import YOLO
 
-DEFAULT_MODEL = Path("models/trained/yolo11n_bird_50ep_best.pt")
+DEFAULT_MODEL = Path("models/trained/yolo11n_bird_cluster_50ep_best.pt")
 
 
 @dataclass

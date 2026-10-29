@@ -26,7 +26,7 @@ from pathlib import Path
 import cv2
 from ultralytics import YOLO
 
-DEFAULT_BIRD_MODEL = Path("models/trained/yolo11n_bird_50ep_best.pt")
+DEFAULT_BIRD_MODEL = Path("models/trained/yolo11n_bird_cluster_50ep_best.pt")
 DEFAULT_LIVESTOCK_MODEL = Path("yolo11n.pt")  # stock COCO weights
 SHEEP_CLASS_ID = 18  # COCO class index in the stock model, verified at runtime
 

@@ -1,0 +1,560 @@
+{
+  "video": "test video\\IMG_5091.MP4",
+  "bird_model": "models\\trained\\yolo11n_bird_cluster_50ep_best.pt",
+  "livestock_model": "yolo11n.pt",
+  "confidence_threshold": 0.25,
+  "near_margin_ratio": 1.0,
+  "fps": 26.005845407623905,
+  "total_frames": 1394,
+  "frames_with_bird": 1393,
+  "frames_with_sheep": 776,
+  "frames_with_bird_near_sheep": 758,
+  "proximity_events": [
+    {
+      "start_time_s": 4.19,
+      "end_time_s": 4.23,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.624,
+      "frames": 2
+    },
+    {
+      "start_time_s": 6.11,
+      "end_time_s": 6.11,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.442,
+      "frames": 1
+    },
+    {
+      "start_time_s": 10.73,
+      "end_time_s": 10.77,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.734,
+      "frames": 2
+    },
+    {
+      "start_time_s": 11.0,
+      "end_time_s": 11.11,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.694,
+      "frames": 4
+    },
+    {
+      "start_time_s": 11.38,
+      "end_time_s": 11.38,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.621,
+      "frames": 1
+    },
+    {
+      "start_time_s": 12.0,
+      "end_time_s": 12.0,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.719,
+      "frames": 1
+    },
+    {
+      "start_time_s": 12.07,
+      "end_time_s": 12.07,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.711,
+      "frames": 1
+    },
+    {
+      "start_time_s": 12.42,
+      "end_time_s": 12.46,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.8,
+      "frames": 2
+    },
+    {
+      "start_time_s": 12.57,
+      "end_time_s": 12.57,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.808,
+      "frames": 1
+    },
+    {
+      "start_time_s": 12.69,
+      "end_time_s": 12.96,
+      "duration_s": 0.27,
+      "max_bird_confidence": 0.786,
+      "frames": 8
+    },
+    {
+      "start_time_s": 13.07,
+      "end_time_s": 13.11,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.746,
+      "frames": 2
+    },
+    {
+      "start_time_s": 13.23,
+      "end_time_s": 13.3,
+      "duration_s": 0.08,
+      "max_bird_confidence": 0.749,
+      "frames": 3
+    },
+    {
+      "start_time_s": 13.38,
+      "end_time_s": 13.38,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.76,
+      "frames": 1
+    },
+    {
+      "start_time_s": 13.96,
+      "end_time_s": 13.96,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.715,
+      "frames": 1
+    },
+    {
+      "start_time_s": 14.04,
+      "end_time_s": 14.04,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.704,
+      "frames": 1
+    },
+    {
+      "start_time_s": 14.11,
+      "end_time_s": 14.11,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.704,
+      "frames": 1
+    },
+    {
+      "start_time_s": 14.19,
+      "end_time_s": 14.19,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.686,
+      "frames": 1
+    },
+    {
+      "start_time_s": 14.27,
+      "end_time_s": 14.73,
+      "duration_s": 0.46,
+      "max_bird_confidence": 0.767,
+      "frames": 13
+    },
+    {
+      "start_time_s": 14.92,
+      "end_time_s": 14.92,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.715,
+      "frames": 1
+    },
+    {
+      "start_time_s": 15.0,
+      "end_time_s": 15.0,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.775,
+      "frames": 1
+    },
+    {
+      "start_time_s": 15.07,
+      "end_time_s": 15.07,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.743,
+      "frames": 1
+    },
+    {
+      "start_time_s": 15.15,
+      "end_time_s": 15.15,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.742,
+      "frames": 1
+    },
+    {
+      "start_time_s": 15.27,
+      "end_time_s": 15.27,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.763,
+      "frames": 1
+    },
+    {
+      "start_time_s": 15.42,
+      "end_time_s": 15.53,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.776,
+      "frames": 4
+    },
+    {
+      "start_time_s": 15.65,
+      "end_time_s": 15.8,
+      "duration_s": 0.15,
+      "max_bird_confidence": 0.804,
+      "frames": 5
+    },
+    {
+      "start_time_s": 15.88,
+      "end_time_s": 15.96,
+      "duration_s": 0.08,
+      "max_bird_confidence": 0.786,
+      "frames": 3
+    },
+    {
+      "start_time_s": 16.07,
+      "end_time_s": 16.07,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.686,
+      "frames": 1
+    },
+    {
+      "start_time_s": 16.3,
+      "end_time_s": 16.42,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.659,
+      "frames": 4
+    },
+    {
+      "start_time_s": 17.11,
+      "end_time_s": 17.23,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.703,
+      "frames": 4
+    },
+    {
+      "start_time_s": 17.3,
+      "end_time_s": 18.65,
+      "duration_s": 1.35,
+      "max_bird_confidence": 0.698,
+      "frames": 36
+    },
+    {
+      "start_time_s": 18.77,
+      "end_time_s": 18.77,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.511,
+      "frames": 1
+    },
+    {
+      "start_time_s": 19.03,
+      "end_time_s": 19.11,
+      "duration_s": 0.08,
+      "max_bird_confidence": 0.4,
+      "frames": 3
+    },
+    {
+      "start_time_s": 19.5,
+      "end_time_s": 19.5,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.751,
+      "frames": 1
+    },
+    {
+      "start_time_s": 19.61,
+      "end_time_s": 19.73,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.77,
+      "frames": 4
+    },
+    {
+      "start_time_s": 19.84,
+      "end_time_s": 19.84,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.754,
+      "frames": 1
+    },
+    {
+      "start_time_s": 20.11,
+      "end_time_s": 20.23,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.675,
+      "frames": 4
+    },
+    {
+      "start_time_s": 20.34,
+      "end_time_s": 20.38,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.549,
+      "frames": 2
+    },
+    {
+      "start_time_s": 20.46,
+      "end_time_s": 20.5,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.414,
+      "frames": 2
+    },
+    {
+      "start_time_s": 20.61,
+      "end_time_s": 20.69,
+      "duration_s": 0.08,
+      "max_bird_confidence": 0.581,
+      "frames": 3
+    },
+    {
+      "start_time_s": 20.76,
+      "end_time_s": 21.69,
+      "duration_s": 0.92,
+      "max_bird_confidence": 0.821,
+      "frames": 25
+    },
+    {
+      "start_time_s": 21.88,
+      "end_time_s": 22.0,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.754,
+      "frames": 4
+    },
+    {
+      "start_time_s": 22.07,
+      "end_time_s": 23.65,
+      "duration_s": 1.58,
+      "max_bird_confidence": 0.848,
+      "frames": 42
+    },
+    {
+      "start_time_s": 23.73,
+      "end_time_s": 24.57,
+      "duration_s": 0.85,
+      "max_bird_confidence": 0.808,
+      "frames": 23
+    },
+    {
+      "start_time_s": 24.65,
+      "end_time_s": 27.22,
+      "duration_s": 2.58,
+      "max_bird_confidence": 0.879,
+      "frames": 68
+    },
+    {
+      "start_time_s": 27.34,
+      "end_time_s": 27.34,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.752,
+      "frames": 1
+    },
+    {
+      "start_time_s": 27.46,
+      "end_time_s": 27.69,
+      "duration_s": 0.23,
+      "max_bird_confidence": 0.738,
+      "frames": 7
+    },
+    {
+      "start_time_s": 27.8,
+      "end_time_s": 29.34,
+      "duration_s": 1.54,
+      "max_bird_confidence": 0.846,
+      "frames": 41
+    },
+    {
+      "start_time_s": 29.42,
+      "end_time_s": 32.72,
+      "duration_s": 3.31,
+      "max_bird_confidence": 0.852,
+      "frames": 87
+    },
+    {
+      "start_time_s": 32.8,
+      "end_time_s": 32.84,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.813,
+      "frames": 2
+    },
+    {
+      "start_time_s": 32.92,
+      "end_time_s": 33.65,
+      "duration_s": 0.73,
+      "max_bird_confidence": 0.817,
+      "frames": 20
+    },
+    {
+      "start_time_s": 33.88,
+      "end_time_s": 34.03,
+      "duration_s": 0.15,
+      "max_bird_confidence": 0.81,
+      "frames": 5
+    },
+    {
+      "start_time_s": 34.11,
+      "end_time_s": 35.45,
+      "duration_s": 1.35,
+      "max_bird_confidence": 0.821,
+      "frames": 36
+    },
+    {
+      "start_time_s": 35.53,
+      "end_time_s": 35.61,
+      "duration_s": 0.08,
+      "max_bird_confidence": 0.766,
+      "frames": 3
+    },
+    {
+      "start_time_s": 35.68,
+      "end_time_s": 36.26,
+      "duration_s": 0.58,
+      "max_bird_confidence": 0.752,
+      "frames": 16
+    },
+    {
+      "start_time_s": 36.34,
+      "end_time_s": 36.34,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.738,
+      "frames": 1
+    },
+    {
+      "start_time_s": 36.41,
+      "end_time_s": 36.41,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.559,
+      "frames": 1
+    },
+    {
+      "start_time_s": 37.76,
+      "end_time_s": 37.76,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.548,
+      "frames": 1
+    },
+    {
+      "start_time_s": 37.84,
+      "end_time_s": 37.84,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.57,
+      "frames": 1
+    },
+    {
+      "start_time_s": 38.99,
+      "end_time_s": 38.99,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.452,
+      "frames": 1
+    },
+    {
+      "start_time_s": 42.45,
+      "end_time_s": 42.49,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.575,
+      "frames": 2
+    },
+    {
+      "start_time_s": 42.76,
+      "end_time_s": 42.76,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.619,
+      "frames": 1
+    },
+    {
+      "start_time_s": 42.87,
+      "end_time_s": 44.45,
+      "duration_s": 1.58,
+      "max_bird_confidence": 0.828,
+      "frames": 42
+    },
+    {
+      "start_time_s": 44.72,
+      "end_time_s": 44.95,
+      "duration_s": 0.23,
+      "max_bird_confidence": 0.777,
+      "frames": 7
+    },
+    {
+      "start_time_s": 45.07,
+      "end_time_s": 45.37,
+      "duration_s": 0.31,
+      "max_bird_confidence": 0.796,
+      "frames": 9
+    },
+    {
+      "start_time_s": 45.45,
+      "end_time_s": 45.61,
+      "duration_s": 0.15,
+      "max_bird_confidence": 0.82,
+      "frames": 5
+    },
+    {
+      "start_time_s": 45.72,
+      "end_time_s": 45.84,
+      "duration_s": 0.12,
+      "max_bird_confidence": 0.814,
+      "frames": 4
+    },
+    {
+      "start_time_s": 45.91,
+      "end_time_s": 45.95,
+      "duration_s": 0.04,
+      "max_bird_confidence": 0.795,
+      "frames": 2
+    },
+    {
+      "start_time_s": 46.14,
+      "end_time_s": 46.14,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.74,
+      "frames": 1
+    },
+    {
+      "start_time_s": 46.3,
+      "end_time_s": 47.14,
+      "duration_s": 0.85,
+      "max_bird_confidence": 0.812,
+      "frames": 23
+    },
+    {
+      "start_time_s": 47.26,
+      "end_time_s": 48.1,
+      "duration_s": 0.85,
+      "max_bird_confidence": 0.82,
+      "frames": 23
+    },
+    {
+      "start_time_s": 48.18,
+      "end_time_s": 49.1,
+      "duration_s": 0.92,
+      "max_bird_confidence": 0.807,
+      "frames": 25
+    },
+    {
+      "start_time_s": 49.26,
+      "end_time_s": 49.83,
+      "duration_s": 0.58,
+      "max_bird_confidence": 0.823,
+      "frames": 16
+    },
+    {
+      "start_time_s": 49.99,
+      "end_time_s": 49.99,
+      "duration_s": 0.0,
+      "max_bird_confidence": 0.73,
+      "frames": 1
+    },
+    {
+      "start_time_s": 50.07,
+      "end_time_s": 50.26,
+      "duration_s": 0.19,
+      "max_bird_confidence": 0.787,
+      "frames": 6
+    },
+    {
+      "start_time_s": 50.33,
+      "end_time_s": 50.49,
+      "duration_s": 0.15,
+      "max_bird_confidence": 0.806,
+      "frames": 5
+    },
+    {
+      "start_time_s": 50.68,
+      "end_time_s": 52.37,
+      "duration_s": 1.69,
+      "max_bird_confidence": 0.812,
+      "frames": 45
+    },
+    {
+      "start_time_s": 52.53,
+      "end_time_s": 53.33,
+      "duration_s": 0.81,
+      "max_bird_confidence": 0.826,
+      "frames": 22
+    },
+    {
+      "start_time_s": 53.41,
+      "end_time_s": 53.56,
+      "duration_s": 0.15,
+      "max_bird_confidence": 0.816,
+      "frames": 5
+    }
+  ]
+}
